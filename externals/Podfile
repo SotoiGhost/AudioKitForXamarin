@@ -1,0 +1,9 @@
+source 'https://github.com/CocoaPods/Specs.git'
+
+platform :ios, '8.0'
+install! 'cocoapods', :integrate_targets => false
+use_frameworks!
+
+target 'AudioKit' do
+	pod 'AudioKit', '2.3'
+end
